@@ -1,0 +1,95 @@
+/* Chad Verbus */
+/* CSC102 */
+/* 10/19/2025 */
+/* Body */
+body {
+    background: black;
+    color: aqua;
+}
+
+
+/* nav  */
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 300px; /* height in pixels */
+    width: 200px; /* width in pixels */
+    float: left; /* nav bar should float to the lect */
+    padding: 5px;
+    line-height: 50px;
+}
+
+/* center header so nav links and buttons are centered */
+header{
+    text-align: center;
+}
+
+h1{
+    margin-left: 500px;
+}
+/* image */
+.image {
+  display: block;
+  max-width: 200px;a
+}
+
+/* ------- THE CLASS THAT TRIGGERS THE ANIMATION ---------------------- */
+.animate {
+  animation: animImage 4s ease-in-out 0s infinite forwards;
+}
+
+/* optional: a class that *pauses* the animation if you need it */
+.paused {
+  animation-play-state: paused;
+}
+
+
+/* animate the meme image right 1000 pixels, down 700 pixels, right 1000 pixels and up 700 pixels */
+@keyframes animImage {
+    25%{
+        transform: translateX(1200px) translateY(0px);
+    }
+    50%{
+        transform: translateX(1200px) translateY(900px);
+    }
+    75%{
+        transform: translateX(-200px) translateY(900px);
+    }
+    100%{
+        transform: translateX(-200px) translateY(0px);
+    }        
+}
+
+/* button wrapper */
+#buttonWrapper{
+    display:block;
+    flex-direction:column;
+    align-items:center;
+    background-color: cadetblue;
+}
+
+
+/* start/stop buttons */
+#playBtn,
+#startBtn,
+#stopBtn  {
+    position: center;
+    width: 100px;
+    height: fit-content;
+    background-color: blue;
+    color: aqua;
+    border-radius: 25%;
+}
+
+/* nav list links */
+li {
+    justify-content:center; 
+    align-items:left;
+    background-color: darkgray;
+    color: aqua;
+}
+
+#video {
+    display: block;
+    margin-left: 200px;
+}

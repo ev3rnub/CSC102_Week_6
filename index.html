@@ -1,0 +1,46 @@
+<!-- Chad Verbus 10/19/2025 -->
+ <!-- CSC102 -->
+<!-- DOCTYPE defines the version of HTML, HTML5 -->
+<!DOCTYPE html>
+<!-- HTML tag goes next, along with the property lang="en", specifying english -->
+<html lang="en">
+    <!-- Head tag and classname of "center"-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Together</title>
+    </head>
+<!-- Body goes here and holds the main content of this document -->
+    <body>
+        <header>
+            <!-- nav bar -->
+            <nav>
+                <li><a href="boards.html">   Boards   </a></li>
+                <li><a href="contact.html">   Contact   </a></li>
+                <div id="buttonWrapper">
+                    <!-- start/stop buttons -->
+                    <button id="startBtn" 
+                        onclick="disableStartButton()"
+                        >Start</button>
+                    <button id="stopBtn" 
+                        onclick="disableStopButton()"
+                        >Stop</button>                       
+                </div>
+            </nav>
+        </header>
+
+        <!-- page/body title-->
+        <h1>Bringing it all Together</h1>
+            <!-- meme image w/alt text for hearing impaired -->
+        <img id="memeImage" 
+            src="./meme.png" 
+            alt="an image of a meme showing an ancient mantra from buddism"
+            class="image"
+        >
+
+        <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/SOh0w_RVGK8">
+        </iframe>
+    </body>
+    <script src="index.js"></script>
+</html>
