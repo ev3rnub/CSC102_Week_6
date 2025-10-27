@@ -10,3 +10,4 @@ Date: Oct 26, 2025
 ## 10/26/2025
 * 1. Added a second video to the main page, Added a music page that plays one song. I also removed some unused css. 
 * 2. Cleaned up some unused javascript in index.js.
+* 3. Fix the order of the videos on the main page.
