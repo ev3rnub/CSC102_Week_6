@@ -19,6 +19,12 @@ nav{
     line-height: 50px;
 }
 
+h2{
+    display: block;
+    align-items: center;
+    align-self: center;
+    margin-left: 500px;
+}
 /* center header so nav links and buttons are centered */
 header{
     text-align: center;
@@ -27,69 +33,28 @@ header{
 h1{
     margin-left: 500px;
 }
-/* image */
-.image {
-  display: block;
-  max-width: 200px;a
-}
-
-/* ------- THE CLASS THAT TRIGGERS THE ANIMATION ---------------------- */
-.animate {
-  animation: animImage 4s ease-in-out 0s infinite forwards;
-}
-
-/* optional: a class that *pauses* the animation if you need it */
-.paused {
-  animation-play-state: paused;
-}
-
-
-/* animate the meme image right 1000 pixels, down 700 pixels, right 1000 pixels and up 700 pixels */
-@keyframes animImage {
-    25%{
-        transform: translateX(1200px) translateY(0px);
-    }
-    50%{
-        transform: translateX(1200px) translateY(900px);
-    }
-    75%{
-        transform: translateX(-200px) translateY(900px);
-    }
-    100%{
-        transform: translateX(-200px) translateY(0px);
-    }        
-}
-
-/* button wrapper */
-#buttonWrapper{
-    display:block;
-    flex-direction:column;
-    align-items:center;
-    background-color: cadetblue;
-}
-
-
-/* start/stop buttons */
-#playBtn,
-#startBtn,
-#stopBtn  {
-    position: center;
-    width: 100px;
-    height: fit-content;
-    background-color: blue;
-    color: aqua;
-    border-radius: 25%;
-}
 
 /* nav list links */
 li {
     justify-content:center; 
     align-items:left;
-    background-color: darkgray;
     color: aqua;
 }
 
-#video {
+#video,
+#video1 {
     display: block;
-    margin-left: 200px;
+    margin-left: 500px;
+}
+
+#song0{
+    display:block;
+    margin-left 500px;
+    color: aqua;
+}
+
+table {
+    display: block;
+    margin-left: 500px;
+    align-items: center;
 }
