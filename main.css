@@ -1,6 +1,6 @@
 /* Chad Verbus */
 /* CSC102 */
-/* 10/19/2025 */
+/* 10/26/2025 */
 /* Body */
 body {
     background: black;
@@ -45,12 +45,6 @@ li {
 #video1 {
     display: block;
     margin-left: 500px;
-}
-
-#song0{
-    display:block;
-    margin-left 500px;
-    color: aqua;
 }
 
 table {
